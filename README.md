@@ -1,6 +1,6 @@
 # Script-collection
 ## startup
-`startup.py` can be set to startupscript in crontab with the command
+`startup.py` can be modified and set to the startupscript in crontab with the command
 
 ```bash
 cat startup.py | sudo tee /etc/startupscripts/startup.py
