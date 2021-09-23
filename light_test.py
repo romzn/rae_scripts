@@ -2,7 +2,7 @@
 from raepy import LedButton
 import time
 
-perception_system = "kinect"
+perception_system = "realsense"
 
 if __name__ == "__main__":
     if perception_system == "realsense":

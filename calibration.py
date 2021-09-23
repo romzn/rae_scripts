@@ -8,7 +8,8 @@ servo = Servo()
 
 if __name__ == "__main__":    
     rack.home()
-    gripper.set_fingerlength(0.15)
+    time.sleep(1)
+    gripper.set_fingerlength(0.105)
     gripper.calibrate()
     gripper.to(0.1)
     servo.limp()
